@@ -8,7 +8,8 @@ import numpy as np
 import pandas as pd
 
 # --- Initialize App ---
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')  # allows Flask to load index.html from root
+
 
 # --- Load Model and Preprocessor ---
 model = joblib.load("GradientBoosting_Tuned_SalaryModel_Fast.pkl")
