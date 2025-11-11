@@ -1,19 +1,19 @@
-numpy==1.26.4
-pandas==2.2.3
-scipy==1.14.1
+numpy
+pandas
+scipy
 
-matplotlib==3.9.2
-seaborn==0.13.2
-plotly==5.24.1
-wordcloud==1.9.3
+matplotlib
+seaborn
+plotly
+wordcloud
 missingno
 
-scikit-learn==1.5.2
-xgboost==2.1.2
-lightgbm==4.5.0
-catboost==1.2.5
+scikit-learn
+xgboost
+lightgbm
+catboost
 
-joblib==1.4.2
+joblib
 
-Flask==3.0.3
-gunicorn==23.0.0
+Flask
+gunicorn
